@@ -1,0 +1,125 @@
+#menu h3{
+    background-color: black;
+    color: white;
+    display: inline-block;
+    margin: 75px 0;
+    text-align: center;
+    padding: 5px 5px;
+}
+.box{
+    width: 720px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-shadow: 5px 5px 5px rgb(232, 229, 229),-5px -5px 5px rgb(232, 229, 229);
+}
+.boxlink{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 5px;
+    /* background-color: #ddd; */
+    justify-content: space-between;
+    box-shadow: 0px 5px 5px rgb(169, 166, 166) ;
+}
+.boxlink a{
+    width: 50%;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px 5px;
+    margin: 10px 0px ;
+    text-decoration: none;
+    color: white;
+    background-color: #333;
+}
+#second{
+    background-color: white;
+    color: black;
+}
+.box_content{
+    padding: 25px 25px;
+    width: 100%;
+    
+}
+.box_content h3{
+    padding: 10px 0px;
+}
+.box_content p{
+    padding: 10px 0px;
+    color: rgb(123, 120, 120);
+}
+#secondimg{
+    width:720px;
+    margin: 40px auto;
+}
+#secondimg img{
+    width: 100%;
+}
+#where{
+    width: 50%;
+    text-align: center;
+    margin: 55px auto;
+}
+#where h3{
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: 5px 5px;
+}
+.address2{
+    width: 720px;
+    margin: 0px auto;
+}
+.address2 img{
+    width: 100%;
+    margin: 15px 0px;
+}
+.address2 p{
+    font-size: 1.2em;
+}
+.address2 span{
+    background-color: black;
+    color: white;
+    padding: 5px 5px;
+}
+#reserve{
+    margin: 25px auto;
+    width: 720px;
+    font-size: 1.2em;
+}
+.input{
+    width: 720px;
+    margin: 0px auto;
+}
+input{
+    width: 100%;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    margin: 10px 0px;
+    border: 1px solid #ccc;
+}
+input:hover{
+    border: 1px solid black;
+}
+    input:focus{
+        outline: none;
+    }
+#send-btn{
+    padding: 10px 15px;
+    border: none;
+    font-size: 1.2em;
+    background-color: black;
+    color: white;
+    margin-bottom: 40px;
+}
+#send-btn:hover{
+    background-color: #ccc;
+    color: black;
+}
+footer{
+    background-color: #ddd;
+    text-align: center;
+    padding: 50px 0px;
+    font-size: 1.3em;
+}

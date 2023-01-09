@@ -1,0 +1,19 @@
+@media screen and (max-width:724px) {
+    .about,#menu{
+        width: 100%;
+        padding: 0px 20px;
+        box-sizing: border-box;
+    }
+    #main-p{
+        display: none;
+    }
+    .box{
+        width: 90%;
+        box-sizing: border-box;
+    }
+    #secondimg,.address2,#reserve,.input{
+        width: 100%;
+        padding: 0px 20px;
+        box-sizing: border-box;
+    }
+}
