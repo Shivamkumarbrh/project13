@@ -23,11 +23,13 @@
     justify-content: space-between;
     box-shadow: 0px 5px 5px rgb(169, 166, 166) ;
 }
-.boxlink a{
+.boxlink button{
+    cursor: pointer;
     width: 50%;
     text-align: center;
     box-sizing: border-box;
     padding: 10px 5px;
+    border: none;
     margin: 10px 0px ;
     text-decoration: none;
     color: white;
@@ -39,6 +41,7 @@
 }
 .box_content{
     padding: 25px 25px;
+    box-sizing: border-box;
     width: 100%;
     
 }
@@ -112,6 +115,7 @@ input:hover{
     background-color: black;
     color: white;
     margin-bottom: 40px;
+    cursor: pointer;
 }
 #send-btn:hover{
     background-color: #ccc;

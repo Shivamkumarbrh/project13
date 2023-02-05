@@ -30,7 +30,7 @@
 .main{
     display: flex;
     flex-wrap: wrap;
-    background-image: url('/project 23/img/bg.jpg');
+    background-image: url('https://cdn.pixabay.com/photo/2016/11/29/12/54/cafe-1869656_960_720.jpg');
     background-size: cover;
     height: 50vh;
     justify-content: center;
